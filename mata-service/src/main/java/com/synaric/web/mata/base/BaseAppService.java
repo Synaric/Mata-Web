@@ -1,13 +1,10 @@
 package com.synaric.web.mata.base;
 
-import java.lang.reflect.Type;
-
 import org.apache.log4j.Logger;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.synaric.web.mata.aspect.service.IAppService;
-import com.synaric.web.mata.entity.RequestExternal;
 
 /**
  * 封装处理请求的Service的共通操作。

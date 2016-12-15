@@ -11,7 +11,7 @@ import com.synaric.web.mata.entity.RequestExternal;
  */
 @Service("emptyService")
 public class EmptyService implements IAppService{
-
+	
 	@Override
 	public Object doService(String json, RequestExternal ext) throws Exception {
 		return "request: ok";

@@ -5,7 +5,6 @@
 <web-app>
 	<display-name>Mata Web Service</display-name>
 
-
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/applicationContext*.xml</param-value>
@@ -24,5 +23,5 @@
 	<servlet-mapping>
 		<servlet-name>spring</servlet-name>
 		<url-pattern>/</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> 
 </web-app>
